@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T15:14:13 EEST" name="Functional tests" finished-at="2023-05-30T15:14:13 EEST" duration-ms="39">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T15:14:13 EEST" name="All tests" finished-at="2023-05-30T15:14:13 EEST" duration-ms="39">
+      <class name="GetsetTests">
+        <test-method signature="getAgeManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getAgeManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgeManTest -->
+        <test-method signature="getAgeWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getAgeWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgeWomenTest -->
+        <test-method signature="getFirstNameManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getFirstNameManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstNameManTest -->
+        <test-method signature="getFirstNameWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getFirstNameWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstNameWomenTest -->
+        <test-method signature="getLastNameManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getLastNameManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLastNameManTest -->
+        <test-method signature="getPartnerManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getPartnerManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartnerManTest -->
+        <test-method signature="getLastNameWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getLastNameWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLastNameWomenTest -->
+        <test-method signature="getPreviousLastnameWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getPreviousLastnameWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPreviousLastnameWomenTest -->
+        <test-method signature="getPartnerWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="getPartnerWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPartnerWomenTest -->
+        <test-method signature="setAgeWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setAgeWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAgeWomenTest -->
+        <test-method signature="setAgeManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setAgeManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAgeManTest -->
+        <test-method signature="setFirstNameWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setFirstNameWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFirstNameWomenTest -->
+        <test-method signature="setFirstNameManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setFirstNameManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFirstNameManTest -->
+        <test-method signature="setLastNameManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setLastNameManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLastNameManTest -->
+        <test-method signature="setLastNameWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setLastNameWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLastNameWomenTest -->
+        <test-method signature="setPartnerWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setPartnerWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPartnerWomenTest -->
+        <test-method signature="setPartnerManTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setPartnerManTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPartnerManTest -->
+        <test-method signature="setPreviousLastNameWomenTest()[pri:0, instance:GetsetTests@161479c6]" started-at="2023-05-30T15:14:13 EEST" name="setPreviousLastNameWomenTest" finished-at="2023-05-30T15:14:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPreviousLastNameWomenTest -->
+      </class> <!-- GetsetTests -->
+      <class name="MethodTests">
+        <test-method signature="testDeregisterPartnership()[pri:0, instance:MethodTests@1ed1993a]" started-at="2023-05-30T15:14:13 EEST" name="testDeregisterPartnership" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeregisterPartnership -->
+        <test-method signature="testIfWomenRetired()[pri:0, instance:MethodTests@1ed1993a]" started-at="2023-05-30T15:14:13 EEST" name="testIfWomenRetired" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfWomenRetired -->
+        <test-method signature="testIfManRetired()[pri:0, instance:MethodTests@1ed1993a]" started-at="2023-05-30T15:14:13 EEST" name="testIfManRetired" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfManRetired -->
+        <test-method signature="testRegisterPartnership()[pri:0, instance:MethodTests@1ed1993a]" started-at="2023-05-30T15:14:13 EEST" name="testRegisterPartnership" finished-at="2023-05-30T15:14:13 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPartnership -->
+      </class> <!-- MethodTests -->
+    </test> <!-- All tests -->
+  </suite> <!-- Functional tests -->
+</testng-results>

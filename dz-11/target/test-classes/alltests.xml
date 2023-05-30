@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Functional tests" >
+
+    <test name="All tests" >
+        <classes>
+            <class name="GetsetTests" />
+            <class name="MethodTests"/>
+        </classes>
+    </test>
+</suite>
