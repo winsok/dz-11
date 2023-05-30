@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Functional_tests" class="navigator-link">
+              <span class="suite-name border-passed">Functional tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Functional_tests" class="navigator-link ">
+                    <span>D:\automation\dz-11\dz-11\src\test\resources\alltests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Functional_tests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Functional_tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Functional_tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Functional_tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Functional_tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Functional_tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Functional_tests" class="hide-methods passed suite-Functional_tests"> (hide)</a> <!-- hide-methods passed suite-Functional_tests -->
+                      <a href="#" panel-name="suite-Functional_tests" class="show-methods passed suite-Functional_tests"> (show)</a> <!-- show-methods passed suite-Functional_tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Functional_tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getAgeManTest">getAgeManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getAgeWomenTest">getAgeWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getFirstNameManTest">getFirstNameManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getFirstNameWomenTest">getFirstNameWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getLastNameManTest">getLastNameManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getLastNameWomenTest">getLastNameWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getPartnerManTest">getPartnerManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getPartnerWomenTest">getPartnerWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="getPreviousLastnameWomenTest">getPreviousLastnameWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setAgeManTest">setAgeManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setAgeWomenTest">setAgeWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setFirstNameManTest">setFirstNameManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setFirstNameWomenTest">setFirstNameWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setLastNameManTest">setLastNameManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setLastNameWomenTest">setLastNameWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setPartnerManTest">setPartnerManTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setPartnerWomenTest">setPartnerWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="GetsetTests" class="method navigator-link" hash-for-method="setPreviousLastNameWomenTest">setPreviousLastNameWomenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="MethodTests" class="method navigator-link" hash-for-method="testDeregisterPartnership">testDeregisterPartnership</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="MethodTests" class="method navigator-link" hash-for-method="testIfManRetired">testIfManRetired</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="MethodTests" class="method navigator-link" hash-for-method="testIfWomenRetired">testIfWomenRetired</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Functional_tests" title="MethodTests" class="method navigator-link" hash-for-method="testRegisterPartnership">testRegisterPartnership</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Functional_tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Functional_tests" class="panel Functional_tests">
+          <div class="suite-Functional_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GetsetTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAgeManTest">
+                  </a> <!-- getAgeManTest -->
+                  <span class="method-name">getAgeManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAgeWomenTest">
+                  </a> <!-- getAgeWomenTest -->
+                  <span class="method-name">getAgeWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFirstNameManTest">
+                  </a> <!-- getFirstNameManTest -->
+                  <span class="method-name">getFirstNameManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFirstNameWomenTest">
+                  </a> <!-- getFirstNameWomenTest -->
+                  <span class="method-name">getFirstNameWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLastNameManTest">
+                  </a> <!-- getLastNameManTest -->
+                  <span class="method-name">getLastNameManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLastNameWomenTest">
+                  </a> <!-- getLastNameWomenTest -->
+                  <span class="method-name">getLastNameWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPartnerManTest">
+                  </a> <!-- getPartnerManTest -->
+                  <span class="method-name">getPartnerManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPartnerWomenTest">
+                  </a> <!-- getPartnerWomenTest -->
+                  <span class="method-name">getPartnerWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPreviousLastnameWomenTest">
+                  </a> <!-- getPreviousLastnameWomenTest -->
+                  <span class="method-name">getPreviousLastnameWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setAgeManTest">
+                  </a> <!-- setAgeManTest -->
+                  <span class="method-name">setAgeManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setAgeWomenTest">
+                  </a> <!-- setAgeWomenTest -->
+                  <span class="method-name">setAgeWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setFirstNameManTest">
+                  </a> <!-- setFirstNameManTest -->
+                  <span class="method-name">setFirstNameManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setFirstNameWomenTest">
+                  </a> <!-- setFirstNameWomenTest -->
+                  <span class="method-name">setFirstNameWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setLastNameManTest">
+                  </a> <!-- setLastNameManTest -->
+                  <span class="method-name">setLastNameManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setLastNameWomenTest">
+                  </a> <!-- setLastNameWomenTest -->
+                  <span class="method-name">setLastNameWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setPartnerManTest">
+                  </a> <!-- setPartnerManTest -->
+                  <span class="method-name">setPartnerManTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setPartnerWomenTest">
+                  </a> <!-- setPartnerWomenTest -->
+                  <span class="method-name">setPartnerWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setPreviousLastNameWomenTest">
+                  </a> <!-- setPreviousLastNameWomenTest -->
+                  <span class="method-name">setPreviousLastNameWomenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_tests-class-passed -->
+          <div class="suite-Functional_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MethodTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeregisterPartnership">
+                  </a> <!-- testDeregisterPartnership -->
+                  <span class="method-name">testDeregisterPartnership</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfManRetired">
+                  </a> <!-- testIfManRetired -->
+                  <span class="method-name">testIfManRetired</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIfWomenRetired">
+                  </a> <!-- testIfWomenRetired -->
+                  <span class="method-name">testIfWomenRetired</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterPartnership">
+                  </a> <!-- testRegisterPartnership -->
+                  <span class="method-name">testRegisterPartnership</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_tests-class-passed -->
+        </div> <!-- panel Functional_tests -->
+        <div panel-name="test-xml-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\automation\dz-11\dz-11\src\test\resources\alltests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Functional tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GetsetTests&quot;/&gt;
+      &lt;class name=&quot;MethodTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All tests --&gt;
+&lt;/suite&gt; &lt;!-- Functional tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Functional tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Functional tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Functional tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Functional_tests');
+function tableData_Functional_tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getAgeManTest')
+data.setCell(0, 2, 'GetsetTests')
+data.setCell(0, 3, 4);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getFirstNameWomenTest')
+data.setCell(1, 2, 'GetsetTests')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'setPreviousLastNameWomenTest')
+data.setCell(2, 2, 'GetsetTests')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testIfWomenRetired')
+data.setCell(3, 2, 'MethodTests')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'setFirstNameWomenTest')
+data.setCell(4, 2, 'GetsetTests')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'setAgeWomenTest')
+data.setCell(5, 2, 'GetsetTests')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getFirstNameManTest')
+data.setCell(6, 2, 'GetsetTests')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDeregisterPartnership')
+data.setCell(7, 2, 'MethodTests')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'setAgeManTest')
+data.setCell(8, 2, 'GetsetTests')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'setPartnerWomenTest')
+data.setCell(9, 2, 'GetsetTests')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getAgeWomenTest')
+data.setCell(10, 2, 'GetsetTests')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getLastNameManTest')
+data.setCell(11, 2, 'GetsetTests')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getPreviousLastnameWomenTest')
+data.setCell(12, 2, 'GetsetTests')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'setPartnerManTest')
+data.setCell(13, 2, 'GetsetTests')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testIfManRetired')
+data.setCell(14, 2, 'MethodTests')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'setLastNameWomenTest')
+data.setCell(15, 2, 'GetsetTests')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getPartnerWomenTest')
+data.setCell(16, 2, 'GetsetTests')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRegisterPartnership')
+data.setCell(17, 2, 'MethodTests')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'getPartnerManTest')
+data.setCell(18, 2, 'GetsetTests')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'setLastNameManTest')
+data.setCell(19, 2, 'GetsetTests')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getLastNameWomenTest')
+data.setCell(20, 2, 'GetsetTests')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'setFirstNameManTest')
+data.setCell(21, 2, 'GetsetTests')
+data.setCell(21, 3, 0);
+window.suiteTableData['Functional_tests']= { tableData: data, tableDiv: 'times-div-Functional_tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 ms</span>
+              <div id="times-div-Functional_tests">
+              </div> <!-- times-div-Functional_tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Functional tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Functional_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">GetsetTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getAgeManTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAgeWomenTest</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFirstNameManTest</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getFirstNameWomenTest</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getLastNameManTest</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPartnerManTest</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getLastNameWomenTest</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPreviousLastnameWomenTest</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPartnerWomenTest</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setAgeWomenTest</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setAgeManTest</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setFirstNameWomenTest</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setFirstNameManTest</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setLastNameManTest</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setLastNameWomenTest</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setPartnerWomenTest</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setPartnerManTest</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setPreviousLastNameWomenTest</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MethodTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeregisterPartnership</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfWomenRetired</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIfManRetired</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegisterPartnership</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
